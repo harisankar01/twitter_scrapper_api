@@ -1,12 +1,10 @@
 instance/*
 !instance/.gitignore
 .webassets-cache
-.env
 .deployment
 ### Flask.Python Stack ###
 # Byte-compiled / optimized / DLL files
 .DS_Store
-.env
 .flaskenv
 *.pyc
 *.pyo
@@ -26,5 +24,6 @@ docs/_build/
 # C extensions
 *.so
 branch_structure.json
-temp_auto_push.bat
 temp_interactive_push.bat
+config.bat
+node_modules
